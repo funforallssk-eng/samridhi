@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Main Chat Bubble with Vibrant Gradient -->
+        <path
+            android:pathData="M32,32 C32,27.58 35.58,24 40,24 L68,24 C72.42,24 76,27.58 76,32 L76,56 C76,60.42 72.42,64 68,64 L46,64 L34,74 L35,64 L40,64 C35.58,64 32,60.42 32,56 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="32"
+                    android:startY="24"
+                    android:endX="76"
+                    android:endY="74"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FF007A" />
+                    <item android:offset="0.5" android:color="#7928CA" />
+                    <item android:offset="1.0" android:color="#00D2FF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Secondary mini bubble / overlay accent -->
+        <path
+            android:pathData="M56,52 L68,52 C71.31,52 74,54.69 74,58 L74,68 C74,71.31 71.31,74 68,74 L65,74 L62,77 L62,74 L56,74 C52.69,74 50,71.31 50,68 L50,58 C50,54.69 52.69,52 56,52 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="50"
+                    android:startY="52"
+                    android:endX="74"
+                    android:endY="77"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#00F2FE" />
+                    <item android:offset="1.0" android:color="#4FACFE" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Soundwave lines inside main chat bubble -->
+        <path
+            android:pathData="M43,44 L43,44 M43,41 L43,47"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M48,37 L48,51"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M53,34 L53,54"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M58,38 L58,50"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M63,42 L63,46"
+            android:strokeWidth="2.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

@@ -1,0 +1,8 @@
+{
+  "name": "Samridhi",
+  "description": "Vibrant real-time messaging app with colorful gradients, smooth dark mode, rich text formatting, voice notes, media sharing, profiles, and group spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
